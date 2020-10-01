@@ -2,11 +2,11 @@
 
 import requests
 
-ip = "45.77.182.72"
+ip = "1.2.3.4"
 url = "http://ipinfo.io/"+ip
 r = requests.get(url)
-print("国家:", r.json()["country"])
-print("城市:", r.json()["city"])
+print("country:", r.json()["country"])
+print("city:", r.json()["city"])
 
 
 
