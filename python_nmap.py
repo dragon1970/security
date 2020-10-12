@@ -4,6 +4,4 @@
 
 """
 
-
-# pip install python3-nmap not work 2020/10/9
 import nmap3
